@@ -1,0 +1,12 @@
+<wxs src="./index.wxs" module="index1"></wxs>
+<view>
+<view class="bluebox">
+<view>请选择蓝色的球:</view>
+  <view wx:for="{{33}}" class="ball {{index1.indexIsIncludeArr(blueArr,index+1)?'cur':''}}" wx:key="index" data-n="{{index+1}}" bindtap="handleBlueArr">{{index+1}}</view>
+</view>
+<view class="redbox">
+<view>请选择红色的球:</view>
+  <view wx:for="{{16}}" class="ball {{index1.indexIsIncludeArr(redArr,index+1)?'cur':''}}" wx:key="index" data-n="{{index+1}}" bindtap="handleRedArr">{{index+1}}
+  </view>
+</view>
+</view>

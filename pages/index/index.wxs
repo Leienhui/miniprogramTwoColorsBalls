@@ -1,0 +1,8 @@
+function indexIsIncludeArr(arr,index){
+  // 不能调用includes
+  return arr.indexOf(index)!=-1
+}
+module.exports={
+  // wxs中不能简写
+  indexIsIncludeArr:indexIsIncludeArr
+}

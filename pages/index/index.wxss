@@ -1,0 +1,24 @@
+.bluebox{
+  height: 200px;
+}
+.redbox{
+  margin-top: 40px;
+  height: 150px;
+}
+.ball{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+.bluebox .ball.cur{
+  background-color: blue;
+}
+.redbox .ball.cur{
+  background-color: red;
+}
